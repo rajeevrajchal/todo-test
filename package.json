@@ -6,7 +6,7 @@
     "app": "next dev",
     "dev": "npx json-server -p 4000 --watch db.json & next dev ",
     "build": "next build",
-    "start": "next start",
+    "start": "npx json-server -p 4000 --watch db.json & next start",
     "lint": "eslint src/**/*.{ts,tsx} --quiet --fix",
     "lint-staged": "lint-staged"
   },
