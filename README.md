@@ -40,7 +40,7 @@ npm install
 or
 yarn install
 ```
-
+> You may encounter an error using yarn install like eslint-config-base-air ....., so if you have that error please use npm install and run the application as your prefer code :)
 ## To run the app
 
 ```bash
