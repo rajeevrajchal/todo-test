@@ -50,7 +50,7 @@ const useTodo = () => {
     console.log('the res', res);
     if (res.status !== 'error') {
       getTodo();
-      toast.success('Item updated');
+      toast.success('Task completed');
     } else {
       toast.error('Failed to update item');
     }

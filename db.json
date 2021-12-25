@@ -1,3 +1,29 @@
 {
-  "todo": []
+  "todo": [
+    {
+      "id": "b2e3c4ab-6b73-48ce-a68a-9ea4d7baa0e6",
+      "completed": false,
+      "title": "buy laptop"
+    },
+    {
+      "id": "4ccc5599-ffd8-4c95-9c53-962071bebe94",
+      "completed": true,
+      "title": "make a tea"
+    },
+    {
+      "id": "0469526d-9833-488d-9993-6a5c6774e21b",
+      "completed": false,
+      "title": "make todo applications"
+    },
+    {
+      "id": "c92c504a-ac71-4ef0-aea7-a9075192cd79",
+      "completed": false,
+      "title": "submit todo to webo"
+    },
+    {
+      "id": "6c5fe170-ecdc-4102-ac16-75ef70a3962b",
+      "completed": true,
+      "title": "happy weekday"
+    }
+  ]
 }

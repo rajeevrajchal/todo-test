@@ -1,5 +1,6 @@
 import React from 'react';
 import { VStack, Center, Spinner, Text } from '@chakra-ui/react';
+import { map, sortBy } from 'lodash';
 import { useAppData } from '../../../context/useAppData';
 import TodoItem from './todoItem';
 import { TodoI } from '../../../types/todo';
@@ -27,7 +28,7 @@ const TodoContent = () => {
 
   return (
     <VStack spacing={4}>
-      {todo.map((item: TodoI) => (
+      {map(sortBy(todo, ['completed']), (item: TodoI) => (
         <TodoItem key={item.id} item={item} />
       ))}
     </VStack>
