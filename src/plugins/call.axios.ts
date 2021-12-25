@@ -8,7 +8,10 @@ interface CallAxiosAPI {
   params?: any;
 }
 
-const baseUrl = 'http://localhost:4000/';
+const baseUrl =
+  process.env.NODE_ENV === 'production'
+    ? 'https://todo-test-xi.vercel.app/4000/'
+    : 'http://localhost:4000/';
 
 export const callAxios = ({
   url,
