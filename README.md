@@ -23,7 +23,7 @@ The app is built with Webpack and Babel using typescript
 # Form Validation
 
 1. Formik
-   > Formik is the world's most popular open source form library for React and React Native. [Chakra UI](https://chakra-ui.com/docs/getting-started)
+   > Formik is the world's most popular open source form library for React and React Native.
 2. Yup
 
 # State Management
